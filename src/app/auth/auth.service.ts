@@ -29,4 +29,8 @@ export class AuthService {
     logout() {
         this.afAuth.auth.signOut();
     }
+
+    travis() {
+        return "This is Travis Fork From Norway and if you check my git, you will get known about my Mean stack and Mern stack thank you Hope for more discussion ";
+    }
 }
